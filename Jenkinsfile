@@ -11,8 +11,8 @@ pipeline {
     stages {
         stage('Cloner le dépôt') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/Oumoulondiaye/testfilrouge'
+                git branch: 'master',
+                    url: 'https://github.com/Oumoulondiaye/testfilrouge.git'
             }
         }
 
